@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
 
-export const Meta: Components.Meta = ({ title, description, image, children }) => {
+export const Meta: Component.Meta = ({ title, description, image, children }) => {
   const { asPath } = useRouter();
 
   const appUrl = process.env.APP_URL;
